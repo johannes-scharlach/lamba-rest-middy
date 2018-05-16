@@ -1,0 +1,11 @@
+{
+  "name": "lamba-rest-middy",
+  "version": "1.0.0",
+  "description": "A middleware that helps create REST APIs with AWS Lambda",
+  "main": "index.js",
+  "author": "Johannes Scharlach <johannes@shareiq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "johanness-scripts": "^2.0.0"
+  }
+}
