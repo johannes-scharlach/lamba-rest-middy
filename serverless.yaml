@@ -1,0 +1,16 @@
+service: testApi
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  testApi:
+    handler: index.apiTest
+    timeout: 30
+    events:
+      - http:
+          path: apiTest
+          method: GET
+
+plugins:
+  - serverless-offline
